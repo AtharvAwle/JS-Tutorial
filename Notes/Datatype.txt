@@ -1,0 +1,61 @@
+There are 2 types of DATATYPES
+
+1- Premitive [Number , String , Boolean , Null , Undefined , Symbol , Bigint]
+Return value for Premitive DATATYPES(typeof)
+
+NUMBER --> Number 
+[const num = 100]
+
+STRING --> String 
+[let a = "atharv"]
+
+Boolean --> Boolean 
+[let loggedaiN = true]
+
+Null --> Object
+ [let b = null]
+
+Undefined --> Undefined
+ [let c;]
+
+Symbol --> Symbol
+[let awle = symbol(123)]
+
+
+
+2- Non Premitive [Arrays , Object , Functions]
+Return value for NON-Premitive DATATYPES(typeof)
+Arrays --> Object
+let heros = ["spiderman" , "ironman" , "hulk" , "shaktiman"];
+
+Object --> Object
+let myObj = {
+    name: "atharv",
+    age: 20
+}
+
+Function --> function
+let myFun = function(){
+
+}
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+MEMORY IN JAVASCRIPT --> (1) Stack Memory
+                         (2) Heap Memory
+
+*************Stack*************
+All premitive datatypes are in stack memory and we give the copy of variable if called
+
+*************Heap*************
+All non-premitive datatypes are in stack memory and we give the reference of variable if called
+
+
+
+
+//datatypes are based on memory allocation
+Primitive datatypes->  call by value (string,number,boolean,null,undefined,BigInt,symbol) ->Stack memory
+
+Reference/Non primitive data types -> call by reference ( array,object, function) -> heap memory
+
+JavaScript is a dynamically typed language. This means that you don't need to specify the data type of a variable when you declare it.

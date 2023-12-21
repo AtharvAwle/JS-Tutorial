@@ -13,3 +13,8 @@ accState = "maha"
 
 //table is used when we have to log multiple variables at one time.
 console.table([accId , email , accCity, accState]);
+
+
+// Const --> We cannot change the value of variable
+//Let --> We can change the value of the variable
+// Var --> Avoid using VAR when we are declaring a variable as it has issue with scope
