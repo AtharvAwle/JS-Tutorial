@@ -23,4 +23,13 @@ console.log(typeof newArr);
 
 
 //SLICE & SPLICE.
+const array = [1,2,3,4,5,6,7,8,9,10]
+const array2 = [11,12,13,14,15,16,17,18,19,20]
+
+//01- SLICE
+console.log(array.slice(1,3)); //1 index to 2 index SLICE
+
+//02- SPLICE
+console.log(array2.splice(1,3)); //1 index to 3 index SPLICE
+//SPLICE manupulate the original array and cuts the portion which is spliced
 
