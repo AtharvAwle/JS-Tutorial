@@ -1,0 +1,24 @@
+//+++++++++++++++++++++++++++++++++++++VAR LET CONST++++++++++++++++++++++++++++++++++++++
+
+// JS is of two types one is ES5 and another is of ES6.
+
+// Var - It is of ES5. 
+//       Var is a function scoped variable.
+//       Var adds itself to the window Object. 
+
+  
+// Let & Const - It is of ES6.
+//               lET & CONST is a Braces scoped variables. 
+//               They does not add themselves to the window Object.  
+              
+              
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++=HOISTING+++++++++++++++++++++++++++++++++++++++++
+
+//Variables and functions are hoisted which means their declaration is moved in the top.
+//Declaration is moved at top and the initialization is done later.
+//There for we get undefined if we log that variable before its initialization.
+              
+              
